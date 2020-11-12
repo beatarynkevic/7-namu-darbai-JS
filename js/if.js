@@ -6,12 +6,12 @@ nenaudotini: ==, !=
 */
 
 /*
-Galimos strukturos: 
-
+Galimos strukturos:
+if () {}
+if () {} else {}
+if () {} else if {} ...  else if {}
+if () {} else if {} ...  else if {} else {}
 */
-
-
-
 
 
 const accountBalance = 100;
@@ -65,15 +65,25 @@ if (akys2 == 'melynos') {
     }
 }
 
+console.clear();
 
 //naudotini nenaudotini skirtumas
 
 
 const pirmas = 8;
-const antras = 8;
+const antras = '8';
 
-if (pirmas != antras) {
+if (pirmas === antras) {
     console.log(true);
 } else {
     console.log(false);
 }
+
+/*
+Kintamieji -         Variables : cons ir let;
+Salygos funkcijos -  If ir else;
+Ciklo funkcijos -    Loop;
+Funkcijos -          Functions;
+Event lisneri'iai
+
+*/
