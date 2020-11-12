@@ -34,7 +34,7 @@ console.log(lottery);
 const cities = ['Big Apple(NY)', 'Sydney', 'Lisabona', 'Troskunai', 'Los Angel(LA)'];
 console.log(cities);
 
-const name = ['Chuck', 'Bruce', 'Wonder Woman', 'Algimantas', 'Walter', 'Xena'];
+const names = ['Chuck', 'Bruce', 'Wonder Woman', 'Algimantas', 'Walter', 'Xena'];
 console.log();
 
 //Veiksmai
