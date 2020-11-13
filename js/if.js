@@ -53,7 +53,8 @@ const akys2 = 'zalios';
 
 if (akys2 == 'melynos') {
     console.log('Grazios sirdies zmogus');
-} else {
+}
+ else {
     if (akys2 == 'zalios') {
         console.log('Melagiai');
     } else {
