@@ -26,8 +26,7 @@ const letters = 'abcdef';
 let sum = '';
 
 for (let a = letters.length - 1; a >=0 ; a--) {
-    const bla = letters[a]; 
-    sum = sum + bla;
+    sum = sum + letters[a];
 }
 console.log(sum);
 
@@ -39,3 +38,62 @@ for (let b = 0; b <= 100; b++) {
     suma =suma + b;
 }
 console.log(suma);
+
+const pirmas = 7;
+const antras = 3;
+const summi = pirmas + antras;
+console.log(summi);
+
+const vardas = 'ana';
+const age = 15;
+//______yra___metu amziaus;
+const sakinys = vardas + ' yra ' + age + ' metu amziaus';
+console.log(sakinys);
+
+const katinas = 'burbon';
+const spalva = 'ryzos';
+const metai = 7;
+
+//___yra___spalvos ir jam yra___ metai;
+const katinelis =`${katinas} yra ${spalva} spalvos ir jam yra ${metai} metai`;
+console.log(katinelis);
+
+
+const actor = 'Tom';
+const actorsLast = 'Hardy';
+const birth = 1940;
+const currentYear = 2020;
+const amzius = currentYear - birth;
+
+//Tom Hardy (80)
+
+const tekstas = `${actor} ${actorsLast} (${amzius})`;
+console.log(tekstas);
+
+//pinigine
+
+const pinigine = 0;
+const sausis = 100;
+const vasaris = 200;
+const kovas = 70;
+
+//100
+//300
+//370
+
+const sausioPajamos = pinigine + sausis;
+console.log(sausioPajamos);
+
+const vasarioPajamos = sausioPajamos + vasaris;
+console.log(vasarioPajamos);
+
+const kovoPajamos = vasarioPajamos + kovas;
+console.log(kovoPajamos);
+
+console.clear();
+
+let pinigine2 = 0;
+pinigine2 = pinigine2 + sausis;
+pinigine2 = pinigine2 + vasaris;
+pinigine2 = pinigine2 + kovas;
+console.log(pinigine2);
