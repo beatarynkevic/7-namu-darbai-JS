@@ -97,3 +97,31 @@ pinigine2 = pinigine2 + sausis;
 pinigine2 = pinigine2 + vasaris;
 pinigine2 = pinigine2 + kovas;
 console.log(pinigine2);
+
+const mother = "Mum said: \"Don't do it!\".";
+const mother2 = 'Mum said: "Don\'t do it!\".';
+
+console.log(mother);
+console.log(mother2);
+
+
+/*
+<div>
+    <p> Lorem </p>
+    <a href="#">Click me </a>
+</div> 
+*/
+
+const html = '<div>\
+                <p> Lorem </p>\
+                <a href="#">Click me </a>\
+            </div>';
+
+console.log(html);
+
+const html2 = `<div>
+                <p> Lorem </p>
+                <a href="#">Click me </a>
+            </div>`;
+
+console.log(html2);
