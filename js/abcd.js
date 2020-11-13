@@ -17,7 +17,7 @@ console.log(rez);
 //4. ivardinti kintamaja, kuri laikys duomenis apie kiekviena cikla
 //5. naudojame kintamaja, kurios reiksme yra tuscia
 
-
+//2 uzduotis
 //panaudojant ciklą perrašyti tekstinio tipo kintamųjų reikšmes iš kito galo:
 //pvz.: “abcdef” -> “fedcba”
 
@@ -30,3 +30,12 @@ for (let a = letters.length - 1; a >=0 ; a--) {
     sum = sum + bla;
 }
 console.log(sum);
+
+//1 uzduotis 0+1+2+3+4
+
+let suma = 0;
+
+for (let b = 0; b <= 100; b++) {
+    suma =suma + b;
+}
+console.log(suma);
