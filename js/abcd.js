@@ -125,3 +125,21 @@ const html2 = `<div>
             </div>`;
 
 console.log(html2);
+
+//petriuko pazymiai
+const petriukoPazymiai = [2, 10, 7, 5];     //<<Kaip inicijuoti sarasa.
+console.log(petriukoPazymiai);
+
+//pazymiu vidurki
+
+
+let pazymiai2 = 0; 
+pazymiai2 = pazymiai2 +petriukoPazymiai[0];  //<<kaip isgauti duomenis is norimospozicijos
+pazymiai2 = pazymiai2 +petriukoPazymiai[1];
+pazymiai2 = pazymiai2 +petriukoPazymiai[2];
+pazymiai2 = pazymiai2 +petriukoPazymiai[3];
+
+const kiekis = petriukoPazymiai.length;
+const atsak = pazymiai2 / kiekis;
+
+console.log(atsak);
