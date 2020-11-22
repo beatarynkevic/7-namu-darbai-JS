@@ -143,3 +143,8 @@ const kiekis = petriukoPazymiai.length;
 const atsak = pazymiai2 / kiekis;
 
 console.log(atsak);
+
+console.clear();
+
+const skaicius1 = 2;
+const skaiciu2 = 4;
